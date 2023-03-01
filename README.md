@@ -1,11 +1,44 @@
-# Job Portal
+# Bike portal
 
-Job Portal is a MERN Stack based web app which helps in streamlining the flow of job application process. It allows users to select there roles (applicant/recruiter), and create an account. In this web app, login session are persistent and REST APIs are securely protected by JWT token verification. After logging in, a recruiter can create/delete/update jobs, shortlist/accept/reject applications, view resume and edit profile. And, an applicant can view jobs, perform fuzzy search with various filters, apply for jobs with an SOP, view applications, upload profile picture, upload resume and edit profile. Hence, it is an all in one solution for a job application system.
+Project Name Bike portal
+This project is a website with a login and contact us page that is connected to a database. The website is designed to be responsive to both desktop and mobile devices.
 
-Demo: [Click Here](https://www.youtube.com/watch?v=lIrN-LbbBnw&ab_channel=ShlokPandey)
+Technologies Used
+Frontend: HTML,CSS,Reactjs,material-ui,
+Backend: NODEJS,EXPRESS
+Database: MONGODB,MONGOOSE,MONGODB-ATLAS
 
-Directory structure of the web app is as follows:
+Features
+Login and Logout functionality with Reactjs
+contect mongodb atlas with nodejs for store the data of signin and signup page 
 
+Responsive design for desktop and mobile devices
+Installation
+Clone the repository
+bash
+Copy code
+git clone https://github.com/<username>/<project-name>.git
+Create a virtual environment and activate it
+bash
+Copy code
+python3 -m venv env
+source env/bin/activate
+Install the required packages
+Copy code
+Run the application
+Copy code
+python app.py
+Usage
+
+Register for an account or login if you already have one
+Navigate to the Contact Us page and submit the form
+Logout when finished
+Credits
+Bootstrap: https://getbootstrap.com/
+Flask: https://flask.palletsprojects.com/en/2.1.x/
+SQLite: https://www.sqlite.org/index.html
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 - backend/
     - public/
@@ -56,11 +89,4 @@ Directory structure of the web app is as follows:
   - passport-local
   - uuid
 
-# Machine Specifications
 
-Details of the machine on which the webapp was tested:
-
-- Operating System: Elementary OS 5.1 (Hera)
-- Terminal: Bash
-- Processor: Intel Core i7-8750H CPU @ 2.20 GHz 2.21 GHz
-- RAM: 16 GB
